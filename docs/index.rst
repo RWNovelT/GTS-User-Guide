@@ -8,7 +8,7 @@ Welcome to helloWorld's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Table of Contents:
+   :caption: Contents:
 
    autodoc
 
