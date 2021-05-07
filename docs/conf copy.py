@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'GTS User Manual'
-copyright = '2021, Novel-T'
-author = 'Novel-T'
+project = 'helloWorld'
+copyright = '2020, Michael Altfield'
+author = 'Michael Altfield'
 
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '1.5.0'
+release = '1.0.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -81,15 +81,6 @@ pygments_style = None
 #html_theme = 'alabaster'
 html_theme = 'sphinx_rtd_theme'
 
-html_logo = './_images/gtslogo.png'
-html_theme_options = {
-    'logo_only': True,
-    'display_version': False,
-	'style_nav_header_background': '#5a7fe5',
-}
-html_favicon = './_images/favicon.ico'
-html_show_sourcelink = False
-
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
@@ -100,7 +91,6 @@ html_show_sourcelink = False
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-html_scaled_image_link = False
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
@@ -116,7 +106,7 @@ html_scaled_image_link = False
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'GTS User Manual'
+htmlhelp_basename = 'helloWorlddoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -143,8 +133,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'GTS User Manual.tex', 'GTS User Manual',
-     'Novel-T', 'manual'),
+    (master_doc, 'helloWorld.tex', 'helloWorld Documentation',
+     'Michael Altfield', 'manual'),
 ]
 
 
@@ -153,7 +143,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'GTS User Manual', 'GTS User Manual',
+    (master_doc, 'helloworld', 'helloWorld Documentation',
      [author], 1)
 ]
 
@@ -164,8 +154,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'GTS User Manual', 'GTS User Manual',
-     author, 'GTS User Manual', 'Guide to the GTS',
+    (master_doc, 'helloWorld', 'helloWorld Documentation',
+     author, 'helloWorld', 'One line description of project.',
      'Miscellaneous'),
 ]
 
